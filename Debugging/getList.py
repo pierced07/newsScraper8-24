@@ -8,6 +8,7 @@ import pytz
 import re
 timeZone = "US/Central" #sets timezone used in armyTime def
 
+
 def findTime(url): #uses armyTime to return MM/DD 00:00 format
     headers = { #sets the user-agent header to mimic request from web browser
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
